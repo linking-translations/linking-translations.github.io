@@ -1,0 +1,40 @@
+.main-block-logo-wrapper {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    & img {
+        margin-top: auto;
+    }
+}
+
+.main-block-text {
+    min-height: 70vh;
+    text-align: center;
+    & h2 {
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        font-size: 45px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        & span {
+            font-style: italic;
+            color: rgb(61, 83, 199);
+        }
+        & a {
+            color: rgb(61, 83, 199);
+            &:hover {
+                color: rgb(112, 126, 199);
+            }
+        }
+    }
+}
+
+.example-column-2 {
+    background-color: green;
+    height: 100vh;
+}
+
+.example-column-3 {
+    background-color: blue;
+    height: 100vh;
+}

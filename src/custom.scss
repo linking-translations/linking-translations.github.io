@@ -1,0 +1,7 @@
+// Override default variables before the import
+//$body-bg: rgba(68, 89, 211, 0.79);
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
